@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2306903F2437408800409712 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306903E2437408800409712 /* User.swift */; };
+		23069041243741D100409712 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23069040243741D100409712 /* Profile.swift */; };
+		23069044243742AB00409712 /* CentralManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23069043243742AB00409712 /* CentralManagerExtension.swift */; };
+		23069046243742BB00409712 /* PeripheralManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23069045243742BB00409712 /* PeripheralManagerExtension.swift */; };
+		230690482437434300409712 /* BLEModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230690472437434300409712 /* BLEModels.swift */; };
+		230B28EC2447421E0045035E /* StreamExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230B28EB2447421E0045035E /* StreamExtension.swift */; };
+		230B28EE244748650045035E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230B28ED244748650045035E /* Constants.swift */; };
+		231F610724433C8500C6A094 /* Companion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F610624433C8500C6A094 /* Companion.swift */; };
+		233AF83824407A4300CCA82F /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AF83724407A4300CCA82F /* UserProfileController.swift */; };
+		233E46202444CED50004818E /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E461F2444CED50004818E /* ChatCell.swift */; };
+		2385030724336ADB00BBC91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385030624336ADB00BBC91E /* AppDelegate.swift */; };
+		2385030924336ADB00BBC91E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385030824336ADB00BBC91E /* SceneDelegate.swift */; };
+		2385030B24336ADB00BBC91E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385030A24336ADB00BBC91E /* MapViewController.swift */; };
+		2385030E24336ADB00BBC91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2385030C24336ADB00BBC91E /* Main.storyboard */; };
+		2385031024336ADF00BBC91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2385030F24336ADF00BBC91E /* Assets.xcassets */; };
+		2385031324336ADF00BBC91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2385031124336ADF00BBC91E /* LaunchScreen.storyboard */; };
+		23AD52142445BCB800C874BE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD52132445BCB800C874BE /* Message.swift */; };
+		23AD52162445BD0E00C874BE /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AD52152445BD0E00C874BE /* Chat.swift */; };
+		23D1194E24374878008BCAC6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1194D24374878008BCAC6 /* ChatViewController.swift */; };
+		23D11950243748C5008BCAC6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1194F243748C5008BCAC6 /* ProfileViewController.swift */; };
+		23D11952243748D7008BCAC6 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D11951243748D7008BCAC6 /* ChatsViewController.swift */; };
+		23D1195624378E65008BCAC6 /* ILikeU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23D1195424378E65008BCAC6 /* ILikeU.xcdatamodeld */; };
+		23D1195824378F0B008BCAC6 /* CoreDataSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1195724378F0B008BCAC6 /* CoreDataSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2306903E2437408800409712 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		23069040243741D100409712 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		23069043243742AB00409712 /* CentralManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManagerExtension.swift; sourceTree = "<group>"; };
+		23069045243742BB00409712 /* PeripheralManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManagerExtension.swift; sourceTree = "<group>"; };
+		230690472437434300409712 /* BLEModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEModels.swift; sourceTree = "<group>"; };
+		230B28EB2447421E0045035E /* StreamExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamExtension.swift; sourceTree = "<group>"; };
+		230B28ED244748650045035E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		231F610624433C8500C6A094 /* Companion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companion.swift; sourceTree = "<group>"; };
+		233AF83724407A4300CCA82F /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		233E461F2444CED50004818E /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		2385030324336ADB00BBC91E /* ILikeU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILikeU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2385030624336ADB00BBC91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2385030824336ADB00BBC91E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2385030A24336ADB00BBC91E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2385030D24336ADB00BBC91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2385030F24336ADF00BBC91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2385031224336ADF00BBC91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2385031424336ADF00BBC91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AD52132445BCB800C874BE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		23AD52152445BD0E00C874BE /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		23D1194D24374878008BCAC6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		23D1194F243748C5008BCAC6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		23D11951243748D7008BCAC6 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		23D1195524378E65008BCAC6 /* ILikeU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ILikeU.xcdatamodel; sourceTree = "<group>"; };
+		23D1195724378F0B008BCAC6 /* CoreDataSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2385030024336ADB00BBC91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230690422437428E00409712 /* CoreBluetooth|Stream Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				230B28ED244748650045035E /* Constants.swift */,
+				230690472437434300409712 /* BLEModels.swift */,
+				23069043243742AB00409712 /* CentralManagerExtension.swift */,
+				23069045243742BB00409712 /* PeripheralManagerExtension.swift */,
+				230B28EB2447421E0045035E /* StreamExtension.swift */,
+			);
+			path = "CoreBluetooth|Stream Extensions";
+			sourceTree = "<group>";
+		};
+		231614462444CBF200F7CCD3 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2385030A24336ADB00BBC91E /* MapViewController.swift */,
+				230690422437428E00409712 /* CoreBluetooth|Stream Extensions */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		231614472444CC0C00F7CCD3 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				23D1194D24374878008BCAC6 /* ChatViewController.swift */,
+				23D11951243748D7008BCAC6 /* ChatsViewController.swift */,
+				233E461F2444CED50004818E /* ChatCell.swift */,
+				23AD52132445BCB800C874BE /* Message.swift */,
+				23AD52152445BD0E00C874BE /* Chat.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		231F610524433C4800C6A094 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23069040243741D100409712 /* Profile.swift */,
+				2306903E2437408800409712 /* User.swift */,
+				231F610624433C8500C6A094 /* Companion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		238502FA24336ADB00BBC91E = {
+			isa = PBXGroup;
+			children = (
+				23D1195324378E46008BCAC6 /* CoreData */,
+				2385030524336ADB00BBC91E /* ILikeU */,
+				2385030424336ADB00BBC91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2385030424336ADB00BBC91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2385030324336ADB00BBC91E /* ILikeU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2385030524336ADB00BBC91E /* ILikeU */ = {
+			isa = PBXGroup;
+			children = (
+				231F610524433C4800C6A094 /* Models */,
+				231614462444CBF200F7CCD3 /* MainScreen */,
+				231614472444CC0C00F7CCD3 /* Chats */,
+				233AF83724407A4300CCA82F /* UserProfileController.swift */,
+				23D1194F243748C5008BCAC6 /* ProfileViewController.swift */,
+				2385030624336ADB00BBC91E /* AppDelegate.swift */,
+				2385030824336ADB00BBC91E /* SceneDelegate.swift */,
+				2385030C24336ADB00BBC91E /* Main.storyboard */,
+				2385030F24336ADF00BBC91E /* Assets.xcassets */,
+				2385031124336ADF00BBC91E /* LaunchScreen.storyboard */,
+				2385031424336ADF00BBC91E /* Info.plist */,
+			);
+			path = ILikeU;
+			sourceTree = "<group>";
+		};
+		23D1195324378E46008BCAC6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				23D1195424378E65008BCAC6 /* ILikeU.xcdatamodeld */,
+				23D1195724378F0B008BCAC6 /* CoreDataSession.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2385030224336ADB00BBC91E /* ILikeU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2385031724336ADF00BBC91E /* Build configuration list for PBXNativeTarget "ILikeU" */;
+			buildPhases = (
+				238502FF24336ADB00BBC91E /* Sources */,
+				2385030024336ADB00BBC91E /* Frameworks */,
+				2385030124336ADB00BBC91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILikeU;
+			packageProductDependencies = (
+			);
+			productName = ILikeU;
+			productReference = 2385030324336ADB00BBC91E /* ILikeU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238502FB24336ADB00BBC91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "George Gostev";
+				TargetAttributes = {
+					2385030224336ADB00BBC91E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 238502FE24336ADB00BBC91E /* Build configuration list for PBXProject "ILikeU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238502FA24336ADB00BBC91E;
+			packageReferences = (
+			);
+			productRefGroup = 2385030424336ADB00BBC91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2385030224336ADB00BBC91E /* ILikeU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2385030124336ADB00BBC91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2385031324336ADF00BBC91E /* LaunchScreen.storyboard in Resources */,
+				2385031024336ADF00BBC91E /* Assets.xcassets in Resources */,
+				2385030E24336ADB00BBC91E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238502FF24336ADB00BBC91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23069046243742BB00409712 /* PeripheralManagerExtension.swift in Sources */,
+				2306903F2437408800409712 /* User.swift in Sources */,
+				23D1195824378F0B008BCAC6 /* CoreDataSession.swift in Sources */,
+				23AD52142445BCB800C874BE /* Message.swift in Sources */,
+				23D11950243748C5008BCAC6 /* ProfileViewController.swift in Sources */,
+				233AF83824407A4300CCA82F /* UserProfileController.swift in Sources */,
+				23069044243742AB00409712 /* CentralManagerExtension.swift in Sources */,
+				23069041243741D100409712 /* Profile.swift in Sources */,
+				2385030B24336ADB00BBC91E /* MapViewController.swift in Sources */,
+				230B28EC2447421E0045035E /* StreamExtension.swift in Sources */,
+				231F610724433C8500C6A094 /* Companion.swift in Sources */,
+				233E46202444CED50004818E /* ChatCell.swift in Sources */,
+				23D11952243748D7008BCAC6 /* ChatsViewController.swift in Sources */,
+				2385030724336ADB00BBC91E /* AppDelegate.swift in Sources */,
+				23AD52162445BD0E00C874BE /* Chat.swift in Sources */,
+				230B28EE244748650045035E /* Constants.swift in Sources */,
+				2385030924336ADB00BBC91E /* SceneDelegate.swift in Sources */,
+				23D1194E24374878008BCAC6 /* ChatViewController.swift in Sources */,
+				23D1195624378E65008BCAC6 /* ILikeU.xcdatamodeld in Sources */,
+				230690482437434300409712 /* BLEModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2385030C24336ADB00BBC91E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2385030D24336ADB00BBC91E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2385031124336ADF00BBC91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2385031224336ADF00BBC91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2385031524336ADF00BBC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2385031624336ADF00BBC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2385031824336ADF00BBC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKF67295NP;
+				INFOPLIST_FILE = ILikeU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgium.ILikeU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2385031924336ADF00BBC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKF67295NP;
+				INFOPLIST_FILE = ILikeU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgium.ILikeU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238502FE24336ADB00BBC91E /* Build configuration list for PBXProject "ILikeU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2385031524336ADF00BBC91E /* Debug */,
+				2385031624336ADF00BBC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2385031724336ADF00BBC91E /* Build configuration list for PBXNativeTarget "ILikeU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2385031824336ADF00BBC91E /* Debug */,
+				2385031924336ADF00BBC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23D1195424378E65008BCAC6 /* ILikeU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23D1195524378E65008BCAC6 /* ILikeU.xcdatamodel */,
+			);
+			currentVersion = 23D1195524378E65008BCAC6 /* ILikeU.xcdatamodel */;
+			path = ILikeU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 238502FB24336ADB00BBC91E /* Project object */;
+}
